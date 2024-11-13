@@ -26,5 +26,3 @@
 ### .gitignoreすべきファイルを決めて、.gitignoreファイルを作ろう
 
 - [参考（Terraform.gitignore）](https://github.com/github/gitignore/blob/main/Terraform.gitignore)
-
-### 次回予習

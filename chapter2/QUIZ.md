@@ -19,5 +19,3 @@
 ### 依存リソースを作ってterraform graphを実行してみよう。結果を[GraphvizOnline](https://dreampuf.github.io/GraphvizOnline/)などで確認しよう
 
 ### .gitignoreすべきファイルを決めて、.gitignoreファイルを作ろう
-
-### 次回予習
