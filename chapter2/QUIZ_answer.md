@@ -24,9 +24,12 @@ https://github.com/shunsuke-tsumori/study_terraform/blob/main/chapter2/src/local
 https://github.com/shunsuke-tsumori/study_terraform/blob/main/chapter2/src/main.tf#L21
 
 ### あるリソースの出力変数を、別のリソースの設定値として入力してみよう（BQデータセット + テーブルが簡単？）
-
+https://github.com/shunsuke-tsumori/study_terraform/blob/main/chapter2/src/main.tf#L31
 
 ### lifecycleで削除保護をかけてみよう
+
+
+参考: https://developer.hashicorp.com/terraform/tutorials/state/resource-lifecycle#prevent-resource-deletion
 
 ### terraform destroyで後片付けをしよう
 

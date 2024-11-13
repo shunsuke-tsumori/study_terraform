@@ -30,4 +30,8 @@ resource "google_bigquery_dataset" "hello_dataset" {
 resource "google_bigquery_table" "hello_table" {
   dataset_id = google_bigquery_dataset.hello_dataset.dataset_id
   table_id   = "hello_table"
+
+  lifecycle {
+    prevent_destroy = true
+  }
 }
