@@ -5,13 +5,17 @@
 - バージョンマネージャの[参考情報](https://zenn.dev/terraform_jp/articles/2024-08-22_terraform_version_manager)
   - 私は昔ながらのtfenvを使っている
 
-
-
 ### Googleプロバイダをセットアップし、自分の Google Cloud プロジェクトに対して terraform init してみよう
+
+https://github.com/shunsuke-tsumori/study_terraform/blob/main/chapter2/src/main.tf#L1-L14
 
 ### GCS バケットを作成してみよう
 
+https://github.com/shunsuke-tsumori/study_terraform/blob/main/chapter2/src/main.tf#L16-L19
+
 ### localsやvariableを使って値を設定してみよう
+
+
 
 ### あるリソースの出力変数を、別のリソースの設定値として入力してみよう（BQデータセット + テーブルが簡単？）
 
