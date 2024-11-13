@@ -15,9 +15,16 @@ https://github.com/shunsuke-tsumori/study_terraform/blob/main/chapter2/src/main.
 
 ### localsやvariableを使って値を設定してみよう
 
+`variables`
+https://github.com/shunsuke-tsumori/study_terraform/blob/main/chapter2/src/variables.tf#L1-L3
+https://github.com/shunsuke-tsumori/study_terraform/blob/main/chapter2/src/main.tf#L12
 
+`locals`
+https://github.com/shunsuke-tsumori/study_terraform/blob/main/chapter2/src/locals.tf#L1-L3
+https://github.com/shunsuke-tsumori/study_terraform/blob/main/chapter2/src/main.tf#L21
 
 ### あるリソースの出力変数を、別のリソースの設定値として入力してみよう（BQデータセット + テーブルが簡単？）
+
 
 ### lifecycleで削除保護をかけてみよう
 

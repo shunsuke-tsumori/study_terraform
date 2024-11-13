@@ -21,3 +21,13 @@ resource "google_storage_bucket" "random12540957390" {
     env = local.env
   }
 }
+
+resource "google_bigquery_dataset" "hello_dataset" {
+  dataset_id = "hello_dataset"
+  location   = "asia-northeast1"
+}
+
+resource "google_bigquery_table" "hello_table" {
+  dataset_id = google_bigquery_dataset.hello_dataset.dataset_id
+  table_id   = "hello_table"
+}
