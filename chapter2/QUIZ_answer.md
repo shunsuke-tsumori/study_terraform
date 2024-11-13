@@ -27,7 +27,7 @@ https://github.com/shunsuke-tsumori/study_terraform/blob/main/chapter2/src/main.
 https://github.com/shunsuke-tsumori/study_terraform/blob/main/chapter2/src/main.tf#L31
 
 ### lifecycleで削除保護をかけてみよう
-
+https://github.com/shunsuke-tsumori/study_terraform/blob/main/chapter2/src/main.tf#L34-L36
 
 参考: https://developer.hashicorp.com/terraform/tutorials/state/resource-lifecycle#prevent-resource-deletion
 
@@ -36,7 +36,9 @@ https://github.com/shunsuke-tsumori/study_terraform/blob/main/chapter2/src/main.
 ### (Cloud Runサービス + ロードバランサーなど)
 
 ### 依存リソースを作ってterraform graphを実行してみよう。結果を[GraphvizOnline](https://dreampuf.github.io/GraphvizOnline/)などで確認しよう
+![](fig/graph.png)
 
 ### .gitignoreすべきファイルを決めて、.gitignoreファイルを作ろう
+https://github.com/shunsuke-tsumori/study_terraform/blob/main/.gitignore
 
 - [参考（Terraform.gitignore）](https://github.com/github/gitignore/blob/main/Terraform.gitignore)
